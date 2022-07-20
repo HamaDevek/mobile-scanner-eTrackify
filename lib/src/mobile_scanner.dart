@@ -116,7 +116,7 @@ class _MobileScannerState extends State<MobileScanner>
     super.didUpdateWidget(oldWidget);
     if (oldWidget.controller == null) {
       if (widget.controller != null) {
-        controller.dispose();
+        // controller.dispose();
         controller = widget.controller!;
       }
     } else {
